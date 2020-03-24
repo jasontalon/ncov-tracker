@@ -1,14 +1,24 @@
 # ncov-tracker
-Fetches the data from ArcGIS
+Fetches the COVID-19 cases in the Philippines from ArcGIS dataset.
 
-Displays covid-19 cases by hospital
-GET https://ncov-tracker-slexwwreja-de.a.run.app/hospital
+## Displays COVID-19 Cases By:
 
-Displays covid-19 cases by individual
-GET https://ncov-tracker-slexwwreja-de.a.run.app/individual
+### Hospital
+```
+curl -X GET https://ncov-tracker-slexwwreja-de.a.run.app/hospital
+```
 
-Displays covid-19 cases by city
-GET https://ncov-tracker-slexwwreja-de.a.run.app/residence
+### Individual
+```
+curl -X GET https://ncov-tracker-slexwwreja-de.a.run.app/individual
+```
 
-Displays covid-19 cases by body count
-GET https://ncov-tracker-slexwwreja-de.a.run.app/numbers
+### City
+```
+curl -X GET https://ncov-tracker-slexwwreja-de.a.run.app/residence
+```
+
+### Body Count
+```
+curl -X GET https://ncov-tracker-slexwwreja-de.a.run.app/numbers
+```
