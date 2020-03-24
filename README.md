@@ -1,7 +1,7 @@
 # ncov-tracker
 Fetches the COVID-19 cases in the Philippines from ArcGIS dataset.
 
-## Displays COVID-19 Cases By:
+## Gets the data of COVID-19 cases by:
 
 ### Hospital
 ```
