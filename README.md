@@ -2,13 +2,13 @@
 Fetches the data from ArcGIS
 
 Displays covid-19 cases by hospital
-GET https://ncov-tracker-slexwwreja-de.a.run.app/hospitals/hospital
+GET https://ncov-tracker-slexwwreja-de.a.run.app/hospital
 
 Displays covid-19 cases by individual
-GET https://ncov-tracker-slexwwreja-de.a.run.app/hospitals/individual
+GET https://ncov-tracker-slexwwreja-de.a.run.app/individual
 
 Displays covid-19 cases by city
-GET https://ncov-tracker-slexwwreja-de.a.run.app/hospitals/residence
+GET https://ncov-tracker-slexwwreja-de.a.run.app/residence
 
 Displays covid-19 cases by body count
-GET https://ncov-tracker-slexwwreja-de.a.run.app/hospitals/numbers
+GET https://ncov-tracker-slexwwreja-de.a.run.app/numbers
