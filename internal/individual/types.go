@@ -30,7 +30,7 @@ type Attributes struct {
 	FID        int         `json:"FID"`
 	FID1       interface{} `json:"FID_1"`
 	PHMasterl  string      `json:"PH_masterl"`
-	Edad       string      `json:"edad"`
+	Edad       interface{} `json:"edad"`
 	Kasarian   string      `json:"kasarian"`
 	Nationalit string      `json:"nationalit"`
 	Residence  string      `json:"residence"`
